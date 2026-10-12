@@ -1,0 +1,119 @@
+# =============================================================================
+# General & OS Files
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# =============================================================================
+# Application Binaries & Releases
+# =============================================================================
+*.apk
+*.aab
+*.ipa
+*.tar.gz
+*.zip
+
+# =============================================================================
+# Local Databases
+# =============================================================================
+*.sqlite
+*.sqlite3
+*.db
+
+# =============================================================================
+# IDE & Editors (VS Code, Android Studio, IntelliJ)
+# =============================================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# Flutter & Dart (frontend)
+# =============================================================================
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+
+# Android (Flutter frontend)
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/**/GeneratedPluginRegistrant.java
+frontend/android/app/build/
+frontend/android/captures/
+
+# iOS (Flutter frontend)
+frontend/ios/**/frameworks/
+frontend/ios/**/Pods/
+frontend/ios/**/.symlinks/
+frontend/ios/**/Flutter/Flutter.framework
+frontend/ios/**/Flutter/Flutter.podspec
+frontend/ios/**/Flutter/Generated.xcconfig
+frontend/ios/**/Flutter/app.flx
+frontend/ios/**/Flutter/app.zip
+frontend/ios/**/Flutter/flutter_assets/
+frontend/ios/**/DerivedData/
+frontend/ios/.generated/
+frontend/ios/Flutter/.last_build_id
+frontend/ios/Podfile.lock
+
+# Web (Flutter frontend)
+frontend/web/generated_plugins.js
+
+# =============================================================================
+# Laravel & PHP (backend)
+# =============================================================================
+backend/vendor/
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-error.log
+
+# Laravel Sensitive Configuration & Keys
+backend/.env
+backend/.env.backup
+backend/.env.*.backup
+backend/.env.production
+backend/auth.json
+
+# Laravel Storage & Cache
+backend/storage/*.key
+backend/storage/logs/*.log
+backend/storage/framework/cache/data/*
+!backend/storage/framework/cache/data/.gitignore
+backend/storage/framework/sessions/*
+!backend/storage/framework/sessions/.gitignore
+backend/storage/framework/views/*
+!backend/storage/framework/views/.gitignore
+backend/storage/framework/testing/*
+!backend/storage/framework/testing/.gitignore
+backend/storage/app/*
+!backend/storage/app/.gitignore
+!backend/storage/app/public/.gitignore
+backend/public/storage
+backend/public/hot
+backend/public/build
+backend/bootstrap/cache/*.php
+
+# Testing & Tools
+backend/.phpunit.result.cache
+backend/.phpunit.cache/
+backend/Homestead.json
+backend/Homestead.yaml
